@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9d5cc4639fb89a89d1d4fe47c07eb102",
+    "packages": [
+        {
+            "name": "mufkuw/entities",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../entity",
+                "reference": "a57b882a2ada3c45524e3ba431177e6959ccb960",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/bootstrap.php"
+                ],
+                "psr-4": {
+                    "Entities\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Muffaddal Kalla",
+                    "email": "mufkuw@gmail.com"
+                }
+            ],
+            "description": "Description of project entity."
+        },
+        {
+            "name": "mufkuw/mvc",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../mvc",
+                "reference": "4416539c603f73d3a2401e752f7faf6279785339",
+                "shasum": null
+            },
+            "require": {
+                "smarty/smarty": "v3.1.31"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/bootstrap.php"
+                ],
+                "psr-4": {
+                    "Mvc\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Muffaddal Kalla",
+                    "email": "mufkuw@gmail.com"
+                }
+            ],
+            "description": "Light weight MVC"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v3.1.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c7d42e4a327c402897dd587871434888fde1e7a9",
+                "reference": "c7d42e4a327c402897dd587871434888fde1e7a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "libs/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-12-14T21:57:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mufkuw/mvc": 20,
+        "mufkuw/entities": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,28 @@
+{
+	"name": "mufkuw/frame",
+	"description": "Light weight curd Framework for PHP.",
+	"authors": [
+		{
+			"name": "Muffaddal Kalla",
+			"email": "mufkuw@gmail.com"
+		}
+	],
+	"repositories": [{
+			"type": "path",
+			"url": "../mvc"
+		}, {
+			"type": "path",
+			"url": "../entity"
+		}
+	],
+	"require": {
+		"mufkuw/mvc": "dev-master",
+		"mufkuw/entities": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Frame\\": "src/",
+			"Frame\\Controllers\\": "controllers/"
+		}
+	}
+}
