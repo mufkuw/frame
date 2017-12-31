@@ -7,43 +7,25 @@ namespace Composer\Autoload;
 class ComposerStaticInit36383b9444f18796347e6fb6f3450770
 {
     public static $files = array (
-        'f084d01b0a599f67676cffef638aa95b' => __DIR__ . '/..' . '/smarty/smarty/libs/bootstrap.php',
-        '1032c3e1f38c3e036168244351316be0' => __DIR__ . '/..' . '/mufkuw/mvc/src/bootstrap.php',
-        '1820057ff0d16a036c49c5850e7ae17f' => __DIR__ . '/..' . '/mufkuw/entities/src/bootstrap.php',
+        '25a285fb4e6c8f6c85e2b6c53ac0eb4a' => __DIR__ . '/../..' . '/src/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'M' => 
-        array (
-            'Mvc\\' => 4,
-        ),
         'F' => 
         array (
             'Frame\\Controllers\\' => 18,
             'Frame\\' => 6,
         ),
-        'E' => 
-        array (
-            'Entities\\' => 9,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mvc\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mufkuw/mvc/src',
-        ),
         'Frame\\Controllers\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/controllers',
+            0 => __DIR__ . '/../..' . '/src/controllers',
         ),
         'Frame\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Entities\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mufkuw/entities/src',
         ),
     );
 

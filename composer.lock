@@ -4,14 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d5cc4639fb89a89d1d4fe47c07eb102",
-    "packages": [
+    "content-hash": "e5f73b5dadd9ef9cc07ff083f137786a",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "mufkuw/entities",
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../entity",
+                "url": "../entities",
                 "reference": "a57b882a2ada3c45524e3ba431177e6959ccb960",
                 "shasum": null
             },
@@ -115,7 +116,6 @@
             "time": "2016-12-14T21:57:25+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {

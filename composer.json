@@ -12,17 +12,19 @@
 			"url": "../mvc"
 		}, {
 			"type": "path",
-			"url": "../entity"
+			"url": "../entities"
 		}
 	],
-	"require": {
-		"mufkuw/mvc": "dev-master",
-		"mufkuw/entities": "dev-master"
+	"require-dev": {
+		"mufkuw/mvc": "* dev-master",
+		"mufkuw/entities": "* dev-master"
 	},
 	"autoload": {
 		"psr-4": {
-			"Frame\\": "src/",
-			"Frame\\Controllers\\": "controllers/"
-		}
+			"Frame\\": "src/"
+		},
+		"files": [
+			"src/bootstrap.php"
+		]
 	}
 }

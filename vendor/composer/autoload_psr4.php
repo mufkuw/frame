@@ -6,8 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mvc\\' => array($vendorDir . '/mufkuw/mvc/src'),
-    'Frame\\Controllers\\' => array($baseDir . '/controllers'),
+    'Frame\\Controllers\\' => array($baseDir . '/src/controllers'),
     'Frame\\' => array($baseDir . '/src'),
-    'Entities\\' => array($vendorDir . '/mufkuw/entities/src'),
 );

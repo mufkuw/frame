@@ -6,7 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'f084d01b0a599f67676cffef638aa95b' => $vendorDir . '/smarty/smarty/libs/bootstrap.php',
-    '1032c3e1f38c3e036168244351316be0' => $vendorDir . '/mufkuw/mvc/src/bootstrap.php',
-    '1820057ff0d16a036c49c5850e7ae17f' => $vendorDir . '/mufkuw/entities/src/bootstrap.php',
+    '25a285fb4e6c8f6c85e2b6c53ac0eb4a' => $baseDir . '/src/bootstrap.php',
 );
